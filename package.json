@@ -1,0 +1,43 @@
+{
+  "name": "quicktask",
+  "private": true,
+  "version": "1.0.0",
+  "description": "QuickTask - Modern Responsive Task Management SaaS Web Application",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/olupubalaji971-ops/quickstart.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "oxlint",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "task-management",
+    "react",
+    "vite",
+    "saas",
+    "todo-app",
+    "productivity",
+    "dark-mode",
+    "responsive"
+  ],
+  "author": "QuickTask Team",
+  "license": "MIT",
+  "dependencies": {
+    "canvas-confetti": "^1.9.4",
+    "lucide-react": "^1.45.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-router-dom": "^7.18.3"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "oxlint": "^1.81.0",
+    "vite": "^8.3.0"
+  }
+}
